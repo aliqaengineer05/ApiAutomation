@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ApiAutomationTask.ApiAutomationTask.AppTest">
+        <methods>
+          <include name="CheckResponsefor200"/>
+          <include name="CheckResponsefor204"/>
+          <include name="CheckResponsefor501"/>
+          <include name="CheckResponsefor401"/>
+          <include name="CheckResponsefor412"/>
+          <include name="CheckResponsefor500"/>
+          <include name="CheckResponsefor400"/>
+          <include name="CheckResponsefor406"/>
+          <include name="ValidateResponseforInexistentCountries"/>
+          <include name="CheckResponsefor405"/>
+          <include name="CheckResponsefor504"/>
+          <include name="CheckResponsefor404"/>
+          <include name="CheckResponsefor415"/>
+        </methods>
+      </class> <!-- ApiAutomationTask.ApiAutomationTask.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
